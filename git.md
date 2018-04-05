@@ -5,6 +5,8 @@
     git config --global user.name "Prename Name"
     git config --global user.email "email@example.com"
 
+Just remove the `--global` flag for local setup.
+
 ## Create a new repository
 
     git clone https://user@github.com/user/repo.git
