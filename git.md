@@ -31,3 +31,9 @@ Just remove the `--global` flag for local setup.
     git remote add origin https://user@github.com/user/repo.git
     git push -u origin --all
     git push -u origin --tags
+
+## Remove password prompt
+
+Caution: this will store the password unencrypted on the disk! Only use if it's safe on your machine!
+
+    git config credential.helper store
