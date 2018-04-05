@@ -1,13 +1,15 @@
 # Git
 
-## Git global setup
+## Setup
+
+### Git global setup
 
     git config --global user.name "Prename Name"
     git config --global user.email "email@example.com"
 
 Just remove the `--global` flag for local setup.
 
-## Create a new repository
+### Create a new repository
 
     git clone https://user@github.com/user/repo.git
     cd repo
@@ -16,7 +18,7 @@ Just remove the `--global` flag for local setup.
     git commit -m "add README"
     git push -u origin master
 
-## Existing folder
+### Existing folder
 
     cd existing_folder
     git init
@@ -25,7 +27,7 @@ Just remove the `--global` flag for local setup.
     git commit
     git push -u origin master
 
-## Existing Git repository
+### Existing Git repository
 
     cd existing_repo
     git remote add origin https://user@github.com/user/repo.git
@@ -37,3 +39,9 @@ Just remove the `--global` flag for local setup.
 Caution: this will store the password unencrypted on the disk! Only use if it's safe on your machine!
 
     git config credential.helper store
+
+## Tags
+
+### Add tag to specific commit
+
+    git tag -a v0.1.2 e30a4eb -m "your tag description"
