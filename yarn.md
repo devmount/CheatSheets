@@ -1,14 +1,16 @@
 # Yarn
 
-## Install dependencies
-
-    yarn
-
-## initialize new project
+## Setup
 
     yarn init
 
-## Adding a dependency
+## Dependencies
+
+### Installation
+
+    yarn
+
+### Adding new dependency
 
     yarn add [package]
     yarn add [package]@[version]
@@ -17,12 +19,12 @@
     yarn add [package] --peer
     yarn add [package] --optional
 
-## Upgrading a dependency
+### Upgrading a dependency
 
     yarn upgrade [package]
     yarn upgrade [package]@[version]
     yarn upgrade [package]@[tag]
 
-## Removing a dependency
+### Removing a dependency
 
     yarn remove [package]

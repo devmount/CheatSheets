@@ -44,4 +44,4 @@ Caution: this will store the password unencrypted on the disk! Only use if it's 
 
 ### Add tag to specific commit
 
-    git tag -a v0.1.2 e30a4eb -m "your tag description"
+    git tag -a v[version] [hash] -m "your tag description"
