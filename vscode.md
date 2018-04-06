@@ -2,10 +2,10 @@
 
 ## Shortcuts
 
-| Shortcut                                                  | Description        |
-| --------------------------------------------------------- | ------------------ |
-| <kbd>Ctrl</kbd>+<kbd>,</kbd>                              | User Settings      |
-| <kbd>Ctrl</kbd>+<kbd>K</kbd> <kbd>Ctrl</kbd>+<kbd>S</kbd> | Keyboard Shortcuts |
+| Shortcut              | Description        |
+| --------------------- | ------------------ |
+| `Ctrl`+`,`            | User Settings      |
+| `Ctrl`+`K` `Ctrl`+`S` | Keyboard Shortcuts |
 
 ## Resources
 
