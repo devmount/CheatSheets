@@ -14,6 +14,6 @@ where `<update_type>` is one of the semantic versioning release types, patch, mi
 
 ## Resources
 
-- <https://www.npmjs.com/>
-- <https://github.com/npm/npm>
-- <https://en.wikipedia.org/wiki/Npm_(software)>
+- [npmjs.com](https://www.npmjs.com/)
+- [github.com/npm/npm](https://github.com/npm/npm)
+- [en.wikipedia.org/wiki/Npm_(software)](https://en.wikipedia.org/wiki/Npm_(software))
