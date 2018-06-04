@@ -8,6 +8,7 @@ Despite many shortcuts I'm using frequently, the following ones can come in very
 | ---------------------- | ------------------------------------------- |
 | `Ctrl`+`,`             | User Settings                               |
 | `Ctrl`+`K` `Ctrl`+`S`  | Keyboard Shortcuts                          |
+| `Ctrl`+`R`             | Switch workspace                            |
 | `Alt`+`Z`              | Toggle word wrap                            |
 | `Ctrl`+`T`             | Show all Symbols                            |
 | `Ctrl`+`G`             | Go to Line...                               |
