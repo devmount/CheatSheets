@@ -40,6 +40,16 @@ Caution: this will store the password unencrypted on the disk! Only use if it's 
 
     git config credential.helper store
 
+## Sign/verify commits
+
+Use `git commit -S` by default for all commits
+
+    git config --global commit.gpgsign true
+
+Set default key
+
+    git config --global user.signingkey <key-id>
+
 ## Tags
 
 ### Add tag to specific commit
