@@ -28,3 +28,7 @@
 ### Removing a dependency
 
     yarn remove [package]
+
+## Update Yarn itself
+
+    curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
