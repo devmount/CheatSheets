@@ -34,6 +34,14 @@ Just remove the `--global` flag for local setup.
     git push -u origin --all
     git push -u origin --tags
 
+### Update remote location
+
+```bash
+git remote rm origin
+git remote add origin <new-location>
+git branch --set-upstream-to=origin/master master
+```
+
 ## Remove password prompt
 
 Caution: this will store the password unencrypted on the disk! Only use if it's safe on your machine!
