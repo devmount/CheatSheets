@@ -31,8 +31,9 @@ Despite many shortcuts I'm using frequently, the following ones can come in very
 | `Ctrl`+`K` `R`         | Reveal active file in Explorer              |
 | `Ctrl`+`Shift`+`H`     | Replace in files                            |
 | `Ctrl`+`K` `V`         | Open Markdown preview to the side           |
-| `Ctrl`+`K` `Z`         | Zen Mode (Esc Esc to exit)                  |
+| `Ctrl`+`K` `Z`         | Zen Mode (`Esc` `Esc` to exit)              |
 
 ## Resources
 
-- [Shortcuts Cheat-Sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) [PDF]
+- [Windows Cheat-Sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) [PDF]
+- [MacOS Cheat-Sheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) [PDF]
