@@ -2,33 +2,51 @@
 
 ## Setup
 
-    yarn init
+```bash
+yarn init
+```
 
 ## Dependencies
 
 ### Installation
 
-    yarn
+```bash
+yarn
+```
 
 ### Adding new dependency
 
-    yarn add [package]
-    yarn add [package]@[version]
-    yarn add [package]@[tag]
-    yarn add [package] --dev
-    yarn add [package] --peer
-    yarn add [package] --optional
+```bash
+yarn add [package]
+yarn add [package]@[version]
+yarn add [package]@[tag]
+yarn add [package] --dev
+yarn add [package] --peer
+yarn add [package] --optional
+```
 
 ### Upgrading a dependency
 
-    yarn upgrade [package]
-    yarn upgrade [package]@[version]
-    yarn upgrade [package]@[tag]
+```bash
+yarn upgrade [package]
+yarn upgrade [package]@[version]
+yarn upgrade [package]@[tag]
+```
 
 ### Removing a dependency
 
-    yarn remove [package]
+```bash
+yarn remove [package]
+```
 
-## Update Yarn itself
+## Update Yarn (v1) itself
 
-    curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+```bash
+curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+```
+
+## Clear Cache
+
+```bash
+yarn cache clean
+```
