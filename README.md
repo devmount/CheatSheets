@@ -46,6 +46,10 @@ In addition to my own above, I compiled a list of the (in my opinion) best Cheat
 
 - <https://www.educba.com/c-programming-language-basics/>  
 
+### Dotnet
+- <https://github.com/quozd/awesome-dotnet>
+- <https://github.com/thangchung/awesome-dotnet-core>
+
 #### Go
 
 - <https://github.com/a8m/golang-cheat-sheet>  
