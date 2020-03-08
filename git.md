@@ -42,6 +42,12 @@ git remote add origin <new-location>
 git branch --set-upstream-to=origin/master master
 ```
 
+### Stop tracking file
+
+```bash
+git update-index --assume-unchanged [path]
+```
+
 ## Remove password prompt
 
 Caution: this will store the password unencrypted on the disk! Only use if it's safe on your machine!
