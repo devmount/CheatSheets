@@ -27,3 +27,11 @@ Count the words of a PDF file:
 ```bash
 pdftotext myfile.pdf - | wc -w
 ```
+
+## Password Generation
+
+Quickly create a random string to use for passwords:
+
+```bash
+date +%s | sha256sum | base64 | head -c 32 ; echo
+```
