@@ -39,7 +39,9 @@ yarn upgrade [package]@[tag]
 yarn remove [package]
 ```
 
-## Update Yarn (v1) itself
+## Update Yarn itself
+
+For Yarn v1.x and v2.x:
 
 ```bash
 curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
