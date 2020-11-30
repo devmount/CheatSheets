@@ -69,3 +69,10 @@ Set default key
 ### Add tag to specific commit
 
     git tag -a v[version] [hash] -m "your tag description"
+
+## Branches
+
+### Remove Branches
+
+    git branch -d local-branch-name
+    git remote prune origin
