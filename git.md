@@ -76,3 +76,9 @@ Set default key
 
     git branch -d local-branch-name
     git remote prune origin
+
+## Submodules
+
+Pull all submodules of the current repository (as they will not automatically retrieved by a `git clone`)
+
+    git submodule update --init --recursive
