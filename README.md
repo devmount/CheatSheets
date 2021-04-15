@@ -4,11 +4,12 @@ Repository for everything I look up more than twice
 
 ## TOC
 
-- [Bash](./bash.md)
-- [Git](./git.md)
-- [NPM](./npm.md)
-- [Visual Studio Code](./vscode.md)
-- [Yarn](./yarn.md)
+- [Bash](./sheets/bash.md)
+- [cmd](./sheets/cmd.md)
+- [Git](./sheets/git.md)
+- [NPM](./sheets/npm.md)
+- [Visual Studio Code](./sheets/vscode.md)
+- [Yarn](./sheets/yarn.md)
 
 ## External Cheat Sheets
 
@@ -47,6 +48,7 @@ In addition to my own above, I compiled a list of the (in my opinion) best Cheat
 - <https://www.educba.com/c-programming-language-basics/>  
 
 #### Dotnet
+
 - <https://github.com/quozd/awesome-dotnet>
 - <https://github.com/thangchung/awesome-dotnet-core>
 
