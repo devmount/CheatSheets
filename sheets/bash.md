@@ -41,3 +41,11 @@ date +%s | sha256sum | base64 | head -c 32 ; echo
 ```bash
 curl ipinfo.io/ip
 ```
+
+## MySQL
+
+Run database import file on server (corresponding to the phpMyAdmin importer)
+
+```bash
+mysql -u database_user -p database_name < file.sql
+```
