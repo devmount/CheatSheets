@@ -17,7 +17,14 @@ gpg --list-keys
 Encrypt a file
 
 ```bash
-gpg --encrypt --armor -r some-one@server.com file.txt
+gpg --encrypt --armor -r some-one@server.com file.txt # or
+gpg -e -u "Sender Name" -r "Receiver Name" file.txt
+```
+
+Decrypt a file
+
+```bash
+gpg -d file.txt.gpg
 ```
 
 ## PDF
