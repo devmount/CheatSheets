@@ -70,6 +70,10 @@ Set default key
 
     git tag -a v[version] [hash] -m "your tag description"
 
+### Show commits since last tag
+
+    git log $(git describe --tags --abbrev=0)..HEAD --oneline
+
 ## Branches
 
 ### Remove Branches
