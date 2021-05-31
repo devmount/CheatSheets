@@ -4,35 +4,43 @@
 
 ### Git global setup
 
-    git config --global user.name "Prename Name"
-    git config --global user.email "email@example.com"
+```bash
+git config --global user.name "Prename Name"
+git config --global user.email "email@example.com"
+```
 
 Just remove the `--global` flag for local setup.
 
 ### Create a new repository
 
-    git clone https://user@github.com/user/repo.git
-    cd repo
-    touch README.md
-    git add README.md
-    git commit -m "add README"
-    git push -u origin main
+```bash
+git clone https://user@github.com/user/repo.git
+cd repo
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin main
+```
 
 ### Existing folder
 
-    cd existing_folder
-    git init
-    git remote add origin https://user@github.com/user/repo.git
-    git add .
-    git commit
-    git push -u origin main
+```bash
+cd existing_folder
+git init
+git remote add origin https://user@github.com/user/repo.git
+git add .
+git commit
+git push -u origin main
+```
 
 ### Existing Git repository
 
-    cd existing_repo
-    git remote add origin https://user@github.com/user/repo.git
-    git push -u origin --all
-    git push -u origin --tags
+```bash
+cd existing_repo
+git remote add origin https://user@github.com/user/repo.git
+git push -u origin --all
+git push -u origin --tags
+```
 
 ### Update remote location
 
@@ -63,37 +71,51 @@ git remote set-head origin -a
 
 Caution: this will store the password unencrypted on the disk! Only use if it's safe on your machine!
 
-    git config credential.helper store
+```bash
+git config credential.helper store
+```
 
 ## Sign/verify commits
 
 Use `git commit -S` by default for all commits
 
-    git config --global commit.gpgsign true
+```bash
+git config --global commit.gpgsign true
+```
 
 Set default key
 
-    git config --global user.signingkey <key-id>
+```bash
+git config --global user.signingkey <key-id>
+```
 
 ## Tags
 
 ### Add tag to specific commit
 
-    git tag -a v[version] [hash] -m "your tag description"
+```bash
+git tag -a v[version] [hash] -m "your tag description"
+```
 
 ### Show commits since last tag
 
-    git log $(git describe --tags --abbrev=0)..HEAD --oneline
+```bash
+git log $(git describe --tags --abbrev=0)..HEAD --oneline
+```
 
 ## Branches
 
 ### Remove Branches
 
-    git branch -d local-branch-name
-    git remote prune origin
+```bash
+git branch -d local-branch-name
+git remote prune origin
+```
 
 ## Submodules
 
 Pull all submodules of the current repository (as they will not automatically retrieved by a `git clone`)
 
-    git submodule update --init --recursive
+```bash
+git submodule update --init --recursive
+```
