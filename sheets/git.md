@@ -16,7 +16,7 @@ Just remove the `--global` flag for local setup.
     touch README.md
     git add README.md
     git commit -m "add README"
-    git push -u origin master
+    git push -u origin main
 
 ### Existing folder
 
@@ -25,7 +25,7 @@ Just remove the `--global` flag for local setup.
     git remote add origin https://user@github.com/user/repo.git
     git add .
     git commit
-    git push -u origin master
+    git push -u origin main
 
 ### Existing Git repository
 
@@ -39,7 +39,7 @@ Just remove the `--global` flag for local setup.
 ```bash
 git remote rm origin
 git remote add origin <new-location>
-git branch --set-upstream-to=origin/master master
+git branch --set-upstream-to=origin/main main
 ```
 
 ### Stop tracking file
