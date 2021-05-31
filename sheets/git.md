@@ -48,6 +48,17 @@ git branch --set-upstream-to=origin/main main
 git update-index --assume-unchanged [path]
 ```
 
+### Rename default branch of local clone
+
+To update a local clone of a repository whose default branch name was changed (e.g. from `master` to `main`):
+
+```bash
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+```
+
 ## Remove password prompt
 
 Caution: this will store the password unencrypted on the disk! Only use if it's safe on your machine!
