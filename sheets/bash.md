@@ -24,7 +24,8 @@ gpg -e -u "Sender Name" -r "Receiver Name" file.txt
 Decrypt a file
 
 ```bash
-gpg -d file.txt.gpg
+gpg -d file.txt.gpg            # to show content directly in bash or
+gpg -d file.txt.gpg > file.txt # to create decrypted file
 ```
 
 ## PDF
