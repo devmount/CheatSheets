@@ -57,3 +57,9 @@ Run database import file on server (corresponding to the phpMyAdmin importer)
 ```bash
 mysql -u database_user -p database_name < file.sql
 ```
+
+Create database export file
+
+```bash
+mysqldump -u database_user -p database_name > file.sql
+```
