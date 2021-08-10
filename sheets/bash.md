@@ -1,5 +1,19 @@
 # Bash
 
+## Compression
+
+Create a .tar.gz file
+
+```bash
+tar -czvf file.tar.gz directory-to-compress/
+```
+
+Extract contents of a .tar.gz file
+
+```bash
+tar -zxvf file.tar.gz
+```
+
 ## GPG
 
 Import public key of someone
