@@ -70,6 +70,7 @@ Run database import file on server (corresponding to the phpMyAdmin importer)
 
 ```bash
 mysql -u database_user -p database_name < file.sql
+mysql -u database_user -p -h database_host database_name < file.sql # if it's not localhost
 ```
 
 Create database export file
