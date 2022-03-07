@@ -89,6 +89,12 @@ Set default key
 git config --global user.signingkey <key-id>
 ```
 
+In case GPG failed to sign data
+
+```bash
+export GPG_TTY=$(tty)
+```
+
 ## Tags
 
 ### Add tag to specific commit
