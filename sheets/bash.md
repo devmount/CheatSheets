@@ -42,6 +42,16 @@ gpg -d file.txt.gpg            # to show content directly in bash or
 gpg -d file.txt.gpg > file.txt # to create decrypted file
 ```
 
+## SSH
+
+Add existing private SSH key to bash
+
+```bash
+chmod 600 private.key # set permissions to be only read-writable by me
+eval $(ssh-agent -s)  # start ssh agent in background
+ssh-add private.key   # add SSH private key to bash
+```
+
 ## PDF
 
 Count the words of a PDF file:
