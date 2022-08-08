@@ -5,10 +5,10 @@ Repository for everything I look up more than twice
 ## TOC
 
 - [Bash](./sheets/bash.md)
-- [cmd](./sheets/cmd.md)
+- [PowerShell](./sheets/powershell.md)
 - [Git](./sheets/git.md)
 - [NPM](./sheets/npm.md)
-- [Visual Studio Code](./sheets/vscode.md)
+- [VS Code](./sheets/vscode.md)
 - [Yarn](./sheets/yarn.md)
 
 ## External Cheat Sheets
