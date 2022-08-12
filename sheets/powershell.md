@@ -18,6 +18,14 @@ Windows sometimes blocks port 80 due to the HTTP Service, which can be stopped w
 net stop http
 ```
 
+## MySQL
+
+Run database import file on server
+
+```powershell
+mysql -u db_user -p -P db_port database_name -e "source ./file.sql"
+```
+
 ## Block Windows 10 telemetry
 
 ```powershell
