@@ -88,3 +88,11 @@ Create database export file
 ```bash
 mysqldump -u database_user -p database_name > file.sql
 ```
+
+## Line Endings
+
+Convert all PHP files in the current directory to Unix line endings
+
+```bash
+find "./" -type f -name '*.php' -execdir dos2unix {} +
+```
