@@ -96,3 +96,11 @@ Convert all PHP files in the current directory to Unix line endings
 ```bash
 find "./" -type f -name '*.php' -execdir dos2unix {} +
 ```
+
+## Python
+
+Update all outdated packages at once
+
+```bash
+pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U 
+```
