@@ -2,16 +2,18 @@
 
 ## Compression
 
-Create a .tar.gz file
+Create a `.tar.gz` or `.zip` file
 
 ```bash
 tar -czvf file.tar.gz directory-to-compress/
+zip -r file.zip directory-to-compress/
 ```
 
-Extract contents of a .tar.gz file
+Extract contents of a `.tar.gz` or `.zip` file
 
 ```bash
 tar -zxvf file.tar.gz
+unzip file.zip
 ```
 
 ## GPG
