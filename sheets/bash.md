@@ -16,7 +16,13 @@ tar -zxvf file.tar.gz
 unzip file.zip
 ```
 
-## GPG
+## SSH & GPG
+
+Create SSH key pair
+
+```bash
+ssh-keygen # prompts for location and passphrase
+```
 
 Import public key of someone
 
@@ -43,8 +49,6 @@ Decrypt a file
 gpg -d file.txt.gpg            # to show content directly in bash or
 gpg -d file.txt.gpg > file.txt # to create decrypted file
 ```
-
-## SSH
 
 Add existing private SSH key to bash
 
