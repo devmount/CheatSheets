@@ -22,6 +22,7 @@ Create SSH key pair and connect SSH with this key
 
 ```bash
 ssh-keygen -f file_name -C "Comment" # prompts for passphrase
+ssh-copy-id -i file_name.pub user@host
 ssh -i file_name user@host
 ```
 
