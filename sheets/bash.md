@@ -18,10 +18,11 @@ unzip file.zip
 
 ## SSH & GPG
 
-Create SSH key pair
+Create SSH key pair and connect SSH with this key
 
 ```bash
-ssh-keygen # prompts for location and passphrase
+ssh-keygen -f file_name -C "Comment" # prompts for passphrase
+ssh -i file_name user@host
 ```
 
 Import public key of someone
