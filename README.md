@@ -152,7 +152,8 @@ In addition to my own above, I compiled a list of the (in my opinion) best Cheat
 - <https://dev.to/adnanbabakan/vue-cheat-sheet-1-194a>  
 - <https://dev.to/adnanbabakan/vue-cheat-sheet-2-5aj8>  
 - <https://dev.to/adnanbabakan/vue-cheat-sheet-3-advanced-4khj>  
-- <https://dev.to/devmount/how-to-kickstart-a-vuejs-project-2mj5>  
+- <https://dev.to/devmount/how-to-kickstart-a-vuejs-project-2mj5>
+- <https://vue-cheatsheet.themeselection.com/>
 
 #### Vuex
 
