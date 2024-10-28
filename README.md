@@ -73,7 +73,7 @@ In addition to my own above, I compiled a list of the (in my opinion) best Cheat
 
 #### JavaScript, ES2015+
 
-- <https://es6cheatsheet.com>  
+- <https://quickref.me/es6.html>  
 - <https://htmlcheatsheet.com/js/>  
 - <https://devhints.io/es6>  
 - <https://overapi.com/javascript>  
