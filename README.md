@@ -24,7 +24,7 @@ In addition to my own above, I compiled a list of the (in my opinion) best Cheat
 
 #### Tech interview
 
-- <https://yangshun.github.io/tech-interview-handbook/cheatsheet/>  
+- <https://www.frontendinterviewhandbook.com>  
 - <https://github.com/TSiege/Tech-Interview-Cheat-Sheet>  
 - <https://dev.to/elliot/my-google-technical-interview-cheat-sheet-1lbd>  
 
@@ -73,7 +73,7 @@ In addition to my own above, I compiled a list of the (in my opinion) best Cheat
 
 #### JavaScript, ES2015+
 
-- <http://www.developer-cheatsheets.com/es6>  
+- <https://es6cheatsheet.com>  
 - <https://htmlcheatsheet.com/js/>  
 - <https://devhints.io/es6>  
 - <https://overapi.com/javascript>  
@@ -95,7 +95,7 @@ In addition to my own above, I compiled a list of the (in my opinion) best Cheat
 - <https://devhints.io/python>  
 - <https://overapi.com/python>  
 - <https://www.pythoncheatsheet.org>  
-- <https://dev.to/codingsafari/python-cheat-sheet-for-javascripters-2c4m>  
+- <https://dev.to/abhirajb/the-ultimate-python-cheatsheet-56g7>  
 
 #### Regex
 
@@ -125,7 +125,7 @@ In addition to my own above, I compiled a list of the (in my opinion) best Cheat
 
 #### Angular
 
-- <https://angular.io/guide/cheatsheet>  
+- <https://docs.w3cub.com/angular/guide/cheatsheet.html>  
 - <https://dev.to/lysofdev/an-angular-testing-cheatsheet-5hj2>  
 
 #### jQuery
@@ -135,19 +135,19 @@ In addition to my own above, I compiled a list of the (in my opinion) best Cheat
 
 #### React
 
-- <http://www.developer-cheatsheets.com/react>  
+- <https://cheatsheets.shecodes.io/react>  
 - <https://devhints.io/react>  
-- <https://dev.to/codeartistryio/the-react-cheatsheet-for-2020-real-world-examples-4hgg>  
+- <https://reactcheatsheet.com>  
 
 #### Redux
 
-- <http://www.developer-cheatsheets.com/redux>  
+- <https://medium.com/@javascript_7596/react-redux-concept-workflow-cheatsheet-be00e3ffa853>  
 - <https://devhints.io/redux>  
 - <https://github.com/linkmesrl/react-journey-2016/blob/master/resources/egghead-redux-cheat-sheet-3-2-1.pdf>  
 
 #### Vue.js
 
-- <https://marozed.ma/vue-cheatsheet/>  
+- <https://learnvue.co/LearnVue-Vue-3-Cheatsheet.pdf>  
 - <https://devhints.io/vue>  
 - <https://dev.to/adnanbabakan/vue-cheat-sheet-1-194a>  
 - <https://dev.to/adnanbabakan/vue-cheat-sheet-2-5aj8>  
@@ -260,7 +260,7 @@ In addition to my own above, I compiled a list of the (in my opinion) best Cheat
 
 #### SASS, SCSS
 
-- <https://sass-cheatsheet.brunoscopelliti.com/>  
+- <https://quickref.me/sass.html>  
 - <https://devhints.io/sass>  
 - <https://dev.to/finallynero/scss-cheatsheet-7g6>  
 
@@ -274,7 +274,7 @@ In addition to my own above, I compiled a list of the (in my opinion) best Cheat
 
 #### Yaml
 
-- <https://lzone.de//cheat-sheet/YAML>  
+- <https://lzone.de/#/LZone%20Cheat%20Sheets/Languages/YAML>  
 - <https://devhints.io/yaml>  
 
 ### Platforms, web apps and code management
@@ -301,4 +301,4 @@ In addition to my own above, I compiled a list of the (in my opinion) best Cheat
 #### Yarn
 
 - <https://devhints.io/yarn>  
-- <https://infinite.red/files/yarn.pdf>  
+- <https://github.com/areai51/yarn-cheatsheet>  
