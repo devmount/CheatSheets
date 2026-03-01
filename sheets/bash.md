@@ -66,6 +66,14 @@ Trigger the GPG agent and reauthenticate
 echo "test" | gpg --clearsign
 ```
 
+## Devices
+
+Remount a device in read-write mode:
+
+```bash
+sudo mount -o remount,rw tiptoi /media/user/tiptoi
+```
+
 ## PDF
 
 Count the words of a PDF file:
