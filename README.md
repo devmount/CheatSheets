@@ -156,6 +156,7 @@ languages, frameworks and tools out there. I considered clarity, interactivity a
 - <https://cheatsheets.shecodes.io/react>
 - <https://devhints.io/react>
 - <https://reactcheatsheet.com>
+- <https://daily.dev/posts/reactjs-handbook-a-cheatsheet-for-developers-kaaln6drv>
 
 #### Redux
 
@@ -336,3 +337,8 @@ languages, frameworks and tools out there. I considered clarity, interactivity a
 
 - <https://devhints.io/yarn>
 - <https://github.com/areai51/yarn-cheatsheet>
+
+## Community focused resources
+
+- <https://daily.dev>
+- <https://dev.to>
