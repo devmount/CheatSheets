@@ -18,11 +18,11 @@ unzip file.zip
 
 ## SSH & GPG
 
-Create SSH key pair and connect SSH with this key
+Create SSH key pair, send public key to server and connect via this SSH key to it
 
 ```bash
-ssh-keygen -f file_name -C "Comment" # prompts for passphrase
-ssh-copy-id -i file_name.pub user@host
+ssh-keygen -b 4096 -f id_ed25519_<name> -C "Comment" # prompts for passphrase
+ssh-copy-id -i id_ed25519_<name>.pub user@host
 ssh -i file_name user@host
 ```
 
