@@ -217,6 +217,7 @@ languages, frameworks and tools out there. I considered clarity, interactivity a
 - <https://dev.to/hengnee/yet-another-git-cheatsheet-4gjk>
 - <https://dev.to/devmount/how-to-correct-git-commit-messages-402d>
 - <https://dev.to/devmount/signed-git-commits-in-vs-code-36do>
+- <https://gitcommands.si/>
 
 #### Sublime Text
 
